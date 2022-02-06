@@ -1,4 +1,6 @@
-﻿Console.Write("Ведите ваше имя ");
-string username = Console.ReadLine();
-Console.WriteLine("Привет, ");
-Console.WriteLine(username);
+﻿//Ввод и вывод надписей на экран
+
+Console.Write("Ведите ваше имя ");          // Вывод на консоль надписи в ковычках
+string username = Console.ReadLine();       // Ввод надпись в консоли
+Console.WriteLine("Привет, ");              // Вывод на консоль надписи в ковычках
+Console.WriteLine(username);                // Вывод на консоль надписи введенной ранее в консоль
